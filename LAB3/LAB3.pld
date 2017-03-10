@@ -1,0 +1,53 @@
+Name            LAB2;
+Partno          CA0001;
+Revision        04;
+Date            2/17/17;
+Designer        Sanjana;
+Company         N/A;
+Location        None;
+Assembly        None;
+Device          g16v8a;
+
+/*This demonstrated decode logic for NVSRAM program memory read*/
+
+ /*
+ * Inputs:  define inputs for decode logic
+ */
+Pin 1 = A11; 
+Pin 2 =  A15;
+Pin 3 =  A14;
+Pin 4 =  A13;
+Pin 5 =  A12;
+Pin 6 =  PSEN;
+Pin 7 =  RD;
+Pin 8 =  WR;
+Pin 9 = A10;
+
+
+/*
+ * Outputs:  define outputs as active low
+ *
+ */
+
+Pin 12 = READ;
+Pin 13 = CSPERIPH;
+Pin 14 = OE;
+Pin 15 = CE;
+Pin 16 = CP;
+
+/*
+ * Logic: expressed in CUPL
+ */
+READ = (RD & PSEN);
+CSPERIPH = !(A12 & A13 & A14 & A15);
+CE= !((A10#A11#A12#A13#A14) & (!A15));  /*Used as decode logic to select address range from 0400h to 7FFFh*/
+OE= RD; /*Used for program memory read */
+CP= (!A15 & !WR); /*To enable the 74ls372 latch only during the write cycle in the address range 0000h to 7FFFh*/
+
+
+
+
+
+
+
+

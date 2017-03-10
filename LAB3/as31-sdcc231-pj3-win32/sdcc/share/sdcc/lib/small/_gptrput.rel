@@ -1,0 +1,46 @@
+XH
+H C areas 1 global symbols
+M _gptrput
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 0 flags 40
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 35 flags 20
+S __gptrput Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 0A
+T 00 00 C8 C0 E0 C8 C0 E0 E5 F0 60 11 14 60 15 14
+R 00 00 00 0A
+T 00 0E 60 17 14 60 18 14 14 60 04 D0 E0 80 15
+R 00 00 00 0A
+T 00 1B
+R 00 00 00 0A
+T 00 1B D0 E0 A8 82 F6 80 0E
+R 00 00 00 0A
+T 00 22
+R 00 00 00 0A
+T 00 22 D0 E0 F0 80 09
+R 00 00 00 0A
+T 00 27
+R 00 00 00 0A
+T 00 27 D0 E0 80 05
+R 00 00 00 0A
+T 00 2B
+R 00 00 00 0A
+T 00 2B D0 E0 A8 82 F2
+R 00 00 00 0A
+T 00 30
+R 00 00 00 0A
+T 00 30 C8 D0 E0 C8
+R 00 00 00 0A
+T 00 34
+R 00 00 00 0A
+T 00 34 22
+R 00 00 00 0A

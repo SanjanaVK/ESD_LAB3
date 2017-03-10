@@ -1,0 +1,34 @@
+XH
+H C areas 3 global symbols
+M _sint2fs
+S ___slong2fs Ref0000
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 2 flags 40
+S ___sint2fs_si_1_1 Def0000
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 25 flags 20
+S ___sint2fs Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 0A
+T 00 00 C0 83 C0 82 90 00 00 D0 E0 F0 D0 E0 A3 F0
+R 00 00 00 0A 00 07 00 05
+T 00 0E 90 00 00 E0 FA A3 E0 FB 33 95 E0 FC FD 8A
+R 00 00 00 0A 00 03 00 05
+T 00 1C 82 8B 83 8C F0 12 00 00
+R 00 00 00 0A 02 08 00 00
+T 00 24
+R 00 00 00 0A
+T 00 24 22
+R 00 00 00 0A

@@ -1,0 +1,48 @@
+XH
+H C areas 3 global symbols
+M _fs2uint
+S ___fs2ulong Ref0000
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 4 flags 40
+S ___fs2uint_f_1_1 Def0000
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 51 flags 20
+S ___fs2uint Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 0A
+T 00 00 C0 E0 C0 F0 C0 83 C0 82 90 00 00 D0 E0 F0
+R 00 00 00 0A 00 0B 00 05
+T 00 0E D0 E0 A3 F0 D0 E0 A3 F0 D0 E0 A3 F0 90
+R 00 00 00 0A
+T 00 1B 00 00 E0 FA A3 E0 FB A3 E0 FC A3 E0 FD 8A
+R 00 00 00 0A 00 02 00 05
+T 00 29 82 8B 83 8C F0 12 00 00 AA 82 AB 83 AC F0
+R 00 00 00 0A 02 08 00 00
+T 00 37 FD C3 EA 94 FF EB 94 FF EC 94 00 ED 94 00
+R 00 00 00 0A
+T 00 45 40 05
+R 00 00 00 0A
+T 00 47
+R 00 00 00 0A
+T 00 47 90 FF FF 80 04
+R 00 00 00 0A
+T 00 4C
+R 00 00 00 0A
+T 00 4C 8A 82 8B 83
+R 00 00 00 0A
+T 00 50
+R 00 00 00 0A
+T 00 50 22
+R 00 00 00 0A

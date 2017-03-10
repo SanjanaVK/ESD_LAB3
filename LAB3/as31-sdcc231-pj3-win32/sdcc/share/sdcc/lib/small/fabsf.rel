@@ -1,0 +1,33 @@
+XH
+H C areas 2 global symbols
+M fabsf
+S _bp Ref0000
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 0 flags 40
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 40 flags 20
+S _fabsf Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 0A
+T 00 00 C0 00 00 85 81 00 00 05 81 05 81 05 81 05
+R 00 00 00 0A 2B 03 00 00 2B 07 00 00
+T 00 0C 81 AA 82 AB 83 AC F0 FD A8 00 00 08 A6 02
+R 00 00 00 0A 2B 0B 00 00
+T 00 19 08 A6 03 08 A6 04 08 A6 05 18 18 18 53 05
+R 00 00 00 0A
+T 00 27 7F A6 02 08 A6 03 08 A6 04 08 A6 05 8A 82
+R 00 00 00 0A
+T 00 35 8B 83 8C F0 ED
+R 00 00 00 0A
+T 00 3A
+R 00 00 00 0A
+T 00 3A 85 00 00 81 D0 00 00 22
+R 00 00 00 0A 2B 03 00 00 2B 07 00 00

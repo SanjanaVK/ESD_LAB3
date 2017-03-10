@@ -1,0 +1,59 @@
+XH
+H C areas 6 global symbols
+M _ispunct
+S _isdigit Ref0000
+S _islower Ref0000
+S _isupper Ref0000
+S _isprint Ref0000
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 1 flags 40
+S _ispunct_c_1_1 Def0000
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 4B flags 20
+S _ispunct Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 0A
+T 00 00 C0 82 90 00 00 D0 E0 F0 90 00 00 E0 FA 8A
+R 00 00 00 0A 00 05 00 05 00 0B 00 05
+T 00 0E 82 C0 02 12 00 00 E5 82 D0 02 60 2D
+R 00 00 00 0A 02 06 00 03
+T 00 1A
+R 00 00 00 0A
+T 00 1A 8A 82 C0 02 12 00 00 E5 82 D0 02 70 20
+R 00 00 00 0A 02 07 00 01
+T 00 27
+R 00 00 00 0A
+T 00 27 8A 82 C0 02 12 00 00 E5 82 D0 02 70 13
+R 00 00 00 0A 02 07 00 02
+T 00 34
+R 00 00 00 0A
+T 00 34 BA 20 02 80 0E
+R 00 00 00 0A
+T 00 39
+R 00 00 00 0A
+T 00 39 8A 82 12 00 00 E5 82 70 05
+R 00 00 00 0A 02 05 00 00
+T 00 42
+R 00 00 00 0A
+T 00 42 75 82 01 80 03
+R 00 00 00 0A
+T 00 47
+R 00 00 00 0A
+T 00 47 75 82 00
+R 00 00 00 0A
+T 00 4A
+R 00 00 00 0A
+T 00 4A 22
+R 00 00 00 0A

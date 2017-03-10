@@ -1,0 +1,56 @@
+XH
+H C areas 7 global symbols
+M _mullong
+A _CODE size 0 flags 0
+A DSEG size 0 flags 0
+A OSEG size 0 flags 4
+A ISEG size 0 flags 0
+A BSEG size 0 flags 80
+A XSEG size 4 flags 40
+S __mulslong_PARM_2 Def0000
+S __mululong_PARM_2 Def0000
+S __mullong_PARM_2 Def0000
+A XISEG size 0 flags 40
+A GSINIT size 0 flags 20
+A GSFINAL size 0 flags 20
+A HOME size 0 flags 20
+A CSEG size 6C flags 20
+S __mullong_dummy Def0000
+S __mulslong Def0000
+S __mululong Def0000
+S __mullong Def0000
+A XINIT size 0 flags 20
+T 00 00
+R 00 00 00 0A
+T 00 00
+R 00 00 00 0A
+T 00 00
+R 00 00 00 0A
+T 00 00
+R 00 00 00 0A
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00
+R 00 00 00 05
+T 00 00 A8 82 A9 83 AA F0 FB 88 F0 90 00 00 E0 A4
+R 00 00 00 0A 00 0C 00 05
+T 00 0E FC AD F0 89 F0 E0 A4 2D FD E4 35 F0 FE 88
+R 00 00 00 0A
+T 00 1C F0 A3 E0 A4 2D FD E5 F0 3E FE E4 33 FF 89
+R 00 00 00 0A
+T 00 2A F0 E0 A4 2E FE E5 F0 3F FF 88 F0 A3 E0 A4
+R 00 00 00 0A
+T 00 38 2E FE E5 F0 3F FF 8A F0 90 00 00 E0 A4 2E
+R 00 00 00 0A 00 0B 00 05
+T 00 46 FE E5 F0 3F FF 8B F0 E0 A4 2F FF 8A F0 A3
+R 00 00 00 0A
+T 00 54 E0 A4 2F FF 89 F0 A3 E0 A4 2F FF 88 F0 A3
+R 00 00 00 0A
+T 00 62 E0 A4 2F 8E F0 8D 83 8C 82 22
+R 00 00 00 0A
+T 00 6C
+R 00 00 00 0A
